@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> File Handling</title>
+      <style> a:hover{color:darkgoldenrod}</style>
+    
+    </head>
+
+    <body bgcolor="darkgray">
+        <a name="#top"></a>
+        <a name="topic1"></a>
+        <title> File Handling</title>
+        <h1 style="color:chocolate">Python File Open</h1>
+
+        <p>File handling is an important part of any web application.<br>  
+
+        Python has several functions for creating, reading, updating</p><br>
+        <h2 style="color: chocolate">File Handling</h2>
+        <p>The key function for working with files in Python is the open() function.<br>
+
+            The open() function takes two parameters; filename, and mode.<br>
+            
+            There are four different methods (modes) for opening a file:</p><br><a href="#top"> preview</a>
+            <table bgcolor="gray"  cellspacing="10" width="50%"><tr><td > 
+
+                "r" - Read - Default value. Opens a file for reading, error if the file does not exist<br>
+                
+                "a" - Append - Opens a file for appending, creates the file if it does not exist<br>
+                
+                "w" - Write - Opens a file for writing, creates the file if it does not exist<br>
+                
+                "x" - Create - Creates the specified file, returns an error if the file exists<br><a href="#top"> preview</a>
+            </td></tr></table>
+            <h2 style="color:chocolate">Open a File on the Server </h2>
+            <p>To open the file, use the built-in open() function.<br>
+
+                The open() function returns a file object, which has a read() method for reading the content of the file:<br></p><a href="#top"> preview</a>
+
+                <h2>Read Lines</h2>
+                <p>You can return one line by using the readline() method:</p>
+                <table  bgcolor="gray"  cellspacing="10" width="50%"><tr><td>Read one line of the file:<br>
+                    f = open("demofile.txt", "r")<br>
+                    print(f.readline()) </td></tr></table><a href="#top"> preview</a>
+    </body>
+   
+    
+</html>

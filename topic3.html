@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Python Matplotlib</title>
+      <style> a:hover{color:darkgoldenrod}</style>
+    
+    </head>
+
+    <body bgcolor="lightgray">
+        <title>Python Matplotlib</title>
+        <a name="#top"></a>
+        <a name="topic3"></a>
+        <h1 style="color:chocolate">What is Matplotlib?
+        </h1>
+
+        <p>  Matplotlib is a low level graph plotting library in python that serves as a visualization utility.<br>
+
+            Matplotlib was created by John D. Hunter.<br>
+            
+            Matplotlib is open source and we can use it freely.<br>
+            
+            Matplotlib is mostly written in python, a few segments are written in C, Objective-C and Javascript for Platform compatibility. <br><a href="#top"> go to the topic</a>
+
+        <h2 style="color: chocolate">Matplotlib Plotting</h2>
+        <p>The plot() function is used to draw points (markers) in a diagram.<br>
+
+            By default, the plot() function draws a line from point to point.<br>
+            
+            The function takes parameters for specifying points in the diagram.<br>
+            
+            Parameter 1 is an array containing the points on the x-axis.<br>
+            
+            Parameter 2 is an array containing the points on the y-axis.<br>
+            
+            If we need to plot a line from (1, 3) to (8, 10), we have to pass two arrays [1, 8] and [3, 10] to the plot function. <br><a href="#top"> go to the topic</a>
+            
+            <h2 style="color:chocolate">The subplots() Function </h2>
+            <p>The subplots() function takes three arguments that describes the layout of the figure.<br>
+
+                The layout is organized in rows and columns, which are represented by the first and second argument.<br>
+                
+                The third argument represents the index of the current plot.<br> 
+                plt.subplot(1, 2, 1)
+                #the figure has 1 row, 2 columns, and this plot is the first plot.
+                
+                plt.subplot(1, 2, 2)<br>
+                #the figure has 1 row, 2 columns, and this plot is the second plot.<br>
+                
+                So, if we want a figure with 2 rows an 1 column <br>(meaning that the two plots will be displayed on top of each other instead of side-by-side), <br>we can write the syntax like this:</p><a href="#top"> go to the topic</a>
+
+                <h2  style="color: chocolate"Creating Scatter Plots></h2>
+                <p>With Pyplot, you can use the scatter() function to draw a scatter plot.<br>
+
+                    The scatter() function plots one dot for each observation.<br> It needs two arrays of the same length, one for the values of the x-axis, and one for values on the y-axis: <br></p><br>
+                 <a href="#top"> go to the topic</a>
+                 <h2  style="color: chocolate">How to Use the ColorMap</h2>
+                 <p>You can specify the colormap with the keyword argument cmap with the value of the colormap, <br>in this case 'viridis' which is one of the built-in colormaps available in Matplotlib.<br>
+
+                    In addition you have to create an array with values (from 0 to 100),<br> one value for each of the point in the scatter plot:<br>
+                    </p></p><a href="#top"> go to the topic</a>
+    </body>
+   
+    
+</html>
